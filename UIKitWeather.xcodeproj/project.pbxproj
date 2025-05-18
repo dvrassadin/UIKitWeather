@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5144842E2DDA28AA00EFD219 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5144842D2DDA28AA00EFD219 /* Kingfisher */; };
+		515BC4C12DDA3A0600F3F194 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 515BC4C02DDA3A0600F3F194 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		514483D62DDA273400EFD219 /* UIKitWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515BC4C02DDA3A0600F3F194 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +47,7 @@
 			children = (
 				514483D82DDA273400EFD219 /* UIKitWeather */,
 				514483D72DDA273400EFD219 /* Products */,
+				515BC4C02DDA3A0600F3F194 /* Config.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515BC4C12DDA3A0600F3F194 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
